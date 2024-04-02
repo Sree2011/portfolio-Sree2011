@@ -14,7 +14,7 @@
 .contact1 {
   border: 3px solid black;
   border-radius: 18px;
-  font-family: cursive;
+  font-family: ui-rounded;
   background-color: bisque;
   margin: 5px;
 }
@@ -27,8 +27,8 @@ div {
 .summary {
   border: 3px solid rgb(35, 188, 38);
   border-radius: 18px;
-  font-family: ui-rounded;
-  background-color: rgb(45, 193, 198);
+  font-family: cursive;
+  background-color: rgb(218, 175, 21);
   margin: 5px;
   justify-content: space-between;
 }
