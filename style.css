@@ -30,6 +30,7 @@ div {
   font-family: ui-rounded;
   background-color: rgb(45, 193, 198);
   margin: 5px;
+  justify-content: space-between;
 }
 
 
