@@ -27,7 +27,8 @@ div {
 .summary {
   border: 3px solid rgb(35, 188, 38);
   border-radius: 18px;
-  font-family: cursive;
+  font-family: cursive, Times, serif;
+  font-style: italic;
   background-color: rgb(218, 175, 21);
   margin: 5px;
   justify-content: space-between;
