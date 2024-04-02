@@ -24,6 +24,13 @@ div {
   text-align: center;
 }
 
+.summary {
+  border: 3px solid rgb(35, 188, 38);
+  border-radius: 18px;
+  font-family: ui-rounded;
+  background-color: antiquewhite;
+  margin: 5px;
+}
 
 
 .skill1 {
