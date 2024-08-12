@@ -1,71 +1,32 @@
-:root {
-  --base-color: #3498DB;
-  --accent-color: #E74C3C;
-  --neutral-color1: #F0F3F4;
-  --neutral-color2: #2C3E50;
-}
-
 body {
-  background-color: var(--neutral-color1);
-  color: var(--neutral-color2);
-  font-family: Arial, sans-serif;
-  font-size: large;
+  background-color: #FFFACD; /* Light Gold */
+  color: #B8860B; /* Dark Gold */
 }
 
 header, footer {
-  background-color: var(--neutral-color2);
-  color: var(--neutral-color1);
-  padding: 20px;
-  text-align: center;
+  background-color: #FF0000; /* Red */
+  color: #FFD700; /* Gold */
 }
 
-h1, h2 {
-  color: var(--base-color);
-}
-
-h3, h4 {
-  color: var(--accent-color);
-}
-
-nav a {
-  color: var(--neutral-color1);
-  text-decoration: none;
-  padding: 10px;
-}
-
-nav a:hover {
-  background-color: var(--accent-color);
-  color: var(--neutral-color1);
-}
-
-button {
-  background-color: var(--accent-color);
-  color: var(--neutral-color1);
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: var(--base-color);
+h1, h2, h3 {
+  color: #FF0000; /* Red */
 }
 
 a {
-  color: var(--accent-color);
+  color: #FFD700; /* Gold */
 }
 
 a:hover {
-  color: var(--base-color);
+  color: #B8860B; /* Dark Gold */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  nav a {
-    display: block;
-    padding: 15px;
-  }
-
-  header, footer {
-    text-align: left;
-  }
+button.primary {
+  background-color: #FF0000; /* Red */
+  color: #FFFFFF; /* White */
 }
+
+button.secondary {
+  background-color: #FFD700; /* Gold */
+  color: #000000; /* Black */
+}
+
