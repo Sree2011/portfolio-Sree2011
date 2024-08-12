@@ -1,19 +1,37 @@
 body {
   background-color: #FFFACD; /* Light Gold */
   color: #B8860B; /* Dark Gold */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 header, footer {
   background-color: #FF0000; /* Red */
   color: #FFD700; /* Gold */
+  text-align: center;
+  padding: 20px 0;
 }
 
-h1, h2, h3 {
-  color: #FF0000; /* Red */
+h1 {
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.75em 0;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin: 1em 0;
 }
 
 a {
   color: #FFD700; /* Gold */
+  text-decoration: none;
 }
 
 a:hover {
@@ -23,10 +41,29 @@ a:hover {
 button.primary {
   background-color: #FF0000; /* Red */
   color: #FFFFFF; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
 }
 
 button.secondary {
   background-color: #FFD700; /* Gold */
   color: #000000; /* Black */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
