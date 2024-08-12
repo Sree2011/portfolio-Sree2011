@@ -1,63 +1,85 @@
-.body {
-  width: 100vw;
-  height: 100vh;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
-
-.contact1 {
-  border: 3px solid black;
-  border-radius: 18px;
-  font-family: ui-rounded;
-  background-color: rgb(218, 175, 21);
-  margin: 5px;
-}
-
-div {
-  justify-content: center;
-  text-align: center;
-}
-
-.summary {
-  border: 3px solid rgb(35, 188, 38);
-  border-radius: 18px;
-  font-family: 'Comic Sans MS';
-
-  background-color: rgb(218, 175, 21);
-  margin: 5px;
-  justify-content: space-between;
-}
-
-
-.skill1 {
-  border: 3px solid rgb(188, 35, 175);
-  border-radius: 18px;
-  font-family: ui-rounded;
-  background-color: antiquewhite;
-  margin: 5px;
-}
-
-p {
-  padding: 0;
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFF0;
+  color: #1D1717;
+  font-size: min(6vmin, calc(1rem + 0.23vmax));
   margin: 0;
+  padding: 0;
 }
 
-h3 {
-  font-size: 10px;
-  font-family: cursive;
+header {
+  background-color: #DC143C;
+  color: #FFFFF0;
+  padding: 20px;
+  display: flex;
+  font-size: min(6vmin, calc(1rem + 0.23vmax));
+  justify-content: space-between;
+  align-items: center;
 }
 
-table,
-th,
-td {
-  justify-content: center;
-  padding: 5px;
-  border: 3px aqua;
-  border-style: initial;
+header .logo {
+  font-weight: bold;
+  font-size: min(6vmin, calc(1rem + 0.23vmax));
+}
+
+nav a {
+  margin: 0 15px;
+  color: #FFFFF0;
+  font-size: min(6vmin, calc(1rem + 0.23vmax));
+  text-align: end;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FF6347;
+}
+
+main {
+  padding: 15px;
+}
+
+h1 {
+  color: #DC143C;
+}
+
+.skill-icons img {
+  width:  50px;
+  height: 50px;
+  margin: 10px;
+}
+
+i {
+  font-size: min(6vmin, calc(1rem + 0.23vmax));
+  color: #FFFFF0;
+  margin: 10px;
+}
+
+.project-list .project {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+}
+
+.project-list .project h2 {
+  color: #000080;
+}
+
+footer {
+  background-color: #DC143C;
+  color: #FFFFF0;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#home{
+  font-size: larger;
+  text-justify: auto;
+  text-align: center;
+  text-align: justify;
 }
