@@ -1,8 +1,8 @@
-document.querySelector('form').addEventListener('submit', function(event) {
+document.querySelector('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
     alert('Form submitted!');
 });
-document.getElementById('form').addEventListener('submit', function(event) {
+document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
