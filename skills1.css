@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: ivory;
+    color: #423F3F;
     margin: 0;
     padding: 0;
   }
 
-  
+
   
   #skills {
     max-width: 800px;
@@ -19,7 +19,7 @@ body {
   
   h2 {
     text-align: center;
-    color: #e74c3c; /* Red color for the heading */
+    color: crimson; /* Red color for the heading */
   }
   
   .skill-category {
@@ -27,8 +27,8 @@ body {
   }
   
   .skill-category h3 {
-    color: #e74c3c; /* Red color for subheadings */
-    border-bottom: 2px solid #e74c3c;
+    color: crimson; /* Red color for subheadings */
+    border-bottom: 2px solid crimson;
     padding-bottom: 5px;
   }
   
@@ -38,8 +38,8 @@ body {
   }
   
   .skill-category ul li {
-    background-color: #e74c3c; /* Red background for skill items */
-    color: #fff;
+    background-color: ivory; /* Red background for skill items */
+    color: 423F3F;
     padding: 10px;
     margin: 5px 0;
     border-radius: 4px;
