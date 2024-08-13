@@ -22,14 +22,12 @@
         <div class="form-container">
             <div class="form-box">
                 <h2>Contact</h2>
-                <form id="myForm">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br><br>
-                    <input type="submit" value="Submit">
+                <form method="POST" action="YOUR_WEBAPP_URL">
+                      <input name="Email" type="email" placeholder="Email" required>
+                      <input name="Name" type="text" placeholder="Name" required>
+                      <button type="submit">Send</button>
                 </form>
-    </section>
+                </section>
 
     <footer class="text-center">
         <div class="container">
