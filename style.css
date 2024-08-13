@@ -2,14 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: ivory;
 }
 .description{
   font-size: 30px;
 }
 header {
-  background-color: #ff4d4d;
-  color: white;
+  background-color: crimson;
+  color: ivory;
   padding: 1rem 0;
   text-align: center;
 }
@@ -25,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: ivory;
   text-decoration: none;
 }
 
@@ -62,8 +62,8 @@ form input, form button {
 }
 
 footer {
-  background-color: #ff4d4d;
-  color: white;
+  background-color: crimson;
+  color: ivory;
   padding: 1rem 0;
   text-align: center;
 }
