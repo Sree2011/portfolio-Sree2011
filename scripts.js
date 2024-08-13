@@ -1,7 +1,3 @@
-document.querySelector('myForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Form submitted!');
-});
 document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const name = document.getElementById('name').value;
@@ -15,6 +11,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     nameCell.textContent = name;
     emailCell.textContent = email;
+    alert('Form submitted!');
 
     document.getElementById('myForm').reset();
 });
