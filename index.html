@@ -4,21 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-            </ul>
-        </nav>
-    </header>
+    {% include header.html}
     <section id="about">
         <h2 class="description">About Me</h2>
         <p class="description">Hello! I’m Sree Sai Nandini Gundraju, a Packaged App Development Associate at Accenture with a Bachelor's in Electrical and Electronics Engineering from Sree Vidyanikethan Engineering College.
@@ -31,38 +19,7 @@
             <br/><br/>
             Let’s connect for job opportunities, collaborations, or idea exchanges!</p>
     </section>
-
-    <footer class="text-center">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                        <a href="index.html">Home</a><br/>
-                        <a href="skills.html">Skills</a><br/>
-                        <a href="projects.html">Projects</a><br/>
-                        <a href="contact.html">Contact</a><br/>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact</h5>
-
-                        <b>Email:</b> <a href="mailto:sreesainandinigundraju@gmail.com">sreesainandinigundraju@gmail.com</a><br/>
-                        <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/g-sree-sai-nandini" target="_blank">g-sree-sai-nandini</a><br/>
-                        <b>GitHub:</b> <a href="https://github.com/Sree2011" target="_blank">Sree2011</a><br/>
-                </div>
-            </div>
-            <div class="social-links mt-3">
-                <a href="https://github.com/Sree2011" target="_blank" aria-label="GitHub">
-                    <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/g-sree-sai-nandini" target="_blank" aria-label="LinkedIn">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-            </div>
-            <p class="mt-3">© 2024 Sree Sai Nandini Gundraju</p>
-        </div>
-    </footer>
-        
+{% include footer.html}
     
     
 </body>
