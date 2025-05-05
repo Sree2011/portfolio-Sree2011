@@ -1,97 +1,123 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat,Serif:wght@300;400;600&display=swap');
+
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #423F3F;
-  background-color: ivory;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #001F3F; /* Dark Navy */
+    color: #C0C0C0; /* Silver Gray */
+    margin: 0;
+    padding: 0;
 }
 
-
-h1,h2,h3,h4,h5,h6{
-  color: #FFD700;
-}
-.description{
-  font-size: 30px;
-}
-header {
-  background-color: crimson;
-  color: ivory;
-  padding: 1rem 0;
-  text-align: center;
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Aguero Serif', serif;
+    color: #800000; /* Maroon */
+    font-weight: bold;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+.hero-content h2{
+    color: #FFDAB9; /* Soft Peach */
+    font-weight: bold;
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 1rem;
+/* About Section */
+/* About Me Section */
+.about-me {
+    background-color: #001F3F; /* Dark Navy */
+    color: #FFDAB9; /* Soft Peach */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 218, 185, 0.2); /* Soft Peach Shadow */
 }
 
-nav ul li a {
-  color: #FFD700;
-  text-decoration: none;
+/* Headings inside About Me */
+.about-me h2 {
+    color: #800000; /* Maroon */
+    font-family: 'Aguero Serif', serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.title{
-  font-size: 40px;
+/* Paragraph styling */
+.about-me p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
 }
 
-section {
-  padding: 2rem;
-  margin: 1rem 0;
+/* Highlighted text */
+.about-me strong {
+    color: #C0C0C0; /* Silver Gray */
+    font-weight: 600;
 }
 
-.project {
-  background-color: white;
-  font-size: 25px;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-me {
+        padding: 20px;
+    }
+
+    .about-me h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+/* Buttons */
+button {
+    background-color: #800000; /* Maroon */
+    color: #FFDAB9; /* Soft Peach */
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-form label {
-  margin: 0.5rem 0 0.2rem;
+button:hover {
+    background-color: #5A0000; /* Slightly darker Maroon */
 }
 
-form input, form button {
-  padding: 0.5rem;
-  margin: 0.5rem 0;
+/* Links */
+a {
+    color: #FFDAB9; /* Soft Peach */
+    text-decoration: none;
+    font-weight: bold;
 }
 
-footer {
-  background-color: crimson;
-  color: ivory;
-  padding: 1rem 0;
-  text-align: center;
+a:hover {
+    color: #800000; /* Maroon */
 }
 
-list-unstyled{
-  list-style-type: none;
-  padding: 0;
-  margin:0;
-}
-
-
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-}
-.form-box {
-    border: 1px solid #ccc;
-    width: 50vw;
+/* Containers */
+.container {
+    max-width: 1200px;
+    margin: auto;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    background-color: #800000; /* Maroon */
+    color: #FFDAB9; /* Soft Peach */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #5A0000; /* Dark Maroon */
+    text-align: center;
+    padding: 20px;
+    color: #FFDAB9; /* Soft Peach */
 }
