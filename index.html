@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="./README.md">Home</a></li>
-                <li><a href="./skills.md">Skills</a></li>
-                <li><a href="./projects.md">Projects</a></li>
-                <li><a href="./contact.md">Contact</a></li>
-            </ul>
-        </nav>
+
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
         <!-- Hero Section -->
         <section class="hero">
-            <h1>Welcome to My Portfolio</h1>
-        </section>
-
-        <!-- About Me -->
-        <section class="about-me">
-            <h2>About Me</h2>
             <p>Hello! I’m <strong>Sree Sai Nandini Gundraju</strong>, a Packaged App Development Associate at Accenture with a Bachelor's in Electrical and Electronics Engineering from Sree Vidyanikethan Engineering College.</p>
             <p>I specialize in <strong>C, Java, Python, MATLAB, and Arduino UNO</strong>, and recently earned the <strong>Microsoft Azure Fundamentals Certification</strong>, enhancing my cloud computing skills.</p>
             <p>My passion lies in developing innovative solutions that drive efficiency and effectiveness.</p>
@@ -33,11 +47,15 @@
             <p>I aim to bridge power systems with IT, ensuring seamless communication between components. I thrive on seeing the direct impact of my work and continuously learning new technologies.</p>
             <p><strong>Let’s connect</strong> for job opportunities, collaborations, or idea exchanges!</p>
         </section>
+
     </div>
     
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Sree Sai Nandini Gundraju | All Rights Reserved</p>
     </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
