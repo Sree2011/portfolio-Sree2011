@@ -156,6 +156,31 @@
        padding: 20px;
        margin-bottom: 20px; /* To create space between the boxes */
    }
+
+   .project-category {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px;
+    border-left: 5px solid #007bff; /* Blue accent border */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.project-category h3 {
+    color: #007bff; /* Blue header */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-category ul {
+    padding-left: 20px;
+}
+
+.project-category li {
+    font-size: 16px;
+    line-height: 1.6;
+    list-style-type: disc;
+}
    
    /* Contact Section */
    .contact {
