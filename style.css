@@ -152,6 +152,9 @@
    /* Project Section */
    .project {
        background: #4d0000;
+       border-radius: 10px;
+       padding: 20px;
+       margin-bottom: 20px; /* To create space between the boxes */
    }
    
    /* Contact Section */
