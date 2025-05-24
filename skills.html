@@ -3,40 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
 </head>
 <body>
     <div class="container">
-        <h1>SREE's Portfolio</h1>
-        <p>Passionate about coding and embedded systems.</p>
+        <!-- Navigation -->
 
-        <div class="section skills">
-            <h2>Skills</h2>
-            <div>
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>Java</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Web Development</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Embedded Systems</h3>
-                <ul>
-                    <li>C</li>
-                    <li>Arduino UNO</li>
-                    <li>MATLAB</li>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #DAA520;">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
+    </nav>
+
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="section skills">
+                <h2>Skills</h2>
+                <div>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Embedded Systems</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Arduino UNO</li>
+                        <li>MATLAB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+
     </div>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sree Sai Nandini Gundraju | All Rights Reserved</p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
 </body>
 </html>
