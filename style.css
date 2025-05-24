@@ -125,3 +125,19 @@ footer {
     padding: 20px;
     color: #FFDAB9; /* Soft Peach */
 }
+
+.section {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.skills {
+    background: #4d0000;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    font-size: 18px;
+}
