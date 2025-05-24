@@ -1,168 +1,212 @@
-/* Import Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat,Serif:wght@300;400;600&display=swap');
+/* ==========================================================================
+   Table of Contents
+   ========================================================================== */
 
-/* Global Styles */
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #001F3F; /* Dark Navy */
-    color: #C0C0C0; /* Silver Gray */
-    margin: 0;
-    padding: 0;
-}
+/*
+   1. Imports
+   2. Global Styles
+   3. Typography (Headings, Paragraphs, Links)
+   4. Layout (Containers, Sections)
+   5. Components (Hero, About, Skills, Projects, Contact, Buttons, Footer)
+   6. Responsive Design
+*/
 
-/* Headings */
-h1, h2, h3 {
-    font-family: 'Aguero Serif', serif;
-    color: #FFDAB9; /* Maroon */
-    font-weight: bold;
-}
+/* ==========================================================================
+   1. Imports
+   ========================================================================== */
 
-.hero-content h1{
-    color: #FFFFFF; /* Soft Peach */
-    font-weight: bold;
-}
-.hero-content h2{
-    color: #FFFFFF; /* Soft Peach */
-    font-weight: normal;
-}
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat,Serif:wght@300;400;600&display=swap');
 
-/* About Section */
-/* About Me Section */
-.about-me {
-    background-color: #001F3F; /* Dark Navy */
-    color: #FFDAB9; /* Soft Peach */
-    padding: 40px;
-    border-radius: 10px;
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(255, 218, 185, 0.2); /* Soft Peach Shadow */
-}
-
-/* Headings inside About Me */
-.about-me h2 {
-    color: #800000; /* Maroon */
-    font-family: 'Aguero Serif', serif;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-/* Paragraph styling */
-.about-me p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: auto;
-}
-
-/* Highlighted text */
-.about-me strong {
-    color: #C0C0C0; /* Silver Gray */
-    font-weight: 600;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .about-me {
-        padding: 20px;
-    }
-
-    .about-me h2 {
-        font-size: 1.8rem;
-    }
-
-    .about-me p {
-        font-size: 1rem;
-    }
-}
-
-/* Buttons */
-button {
-    background-color: #800000; /* Maroon */
-    color: #FFDAB9; /* Soft Peach */
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-button:hover {
-    background-color: #5A0000; /* Slightly darker Maroon */
-}
-
-/* Links */
-a {
-    color: #FFDAB9; /* Soft Peach */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #800000; /* Maroon */
-}
-
-/* Containers */
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #800000; /* Maroon */
-    color: #FFDAB9; /* Soft Peach */
-    text-align: center;
-    padding: 100px 20px;
-}
-
-/* Footer */
-footer {
-    background-color: #5A0000; /* Dark Maroon */
-    text-align: center;
-    padding: 20px;
-    color: #FFDAB9; /* Soft Peach */
-}
-
-.section {
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px 0;
-}
-.skills {
-    background: #4d0000;
-}
-.skills ul {
-    list-style: none;
-    padding: 0;
-}
-.skills ul li {
-    font-size: 18px;
-}
-
-.project{
-    background: #4d0000;
-}
-
-.contact {
-    padding: 20px;
-    border-radius: 10px;
-    background: #4d0000;
-}
-input, textarea, button {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: none;
-    border-radius: 5px;
-}
-button {
-    background-color: lightblue;
-    cursor: pointer;
-}
-a {
-    color: lightblue;
-    text-decoration: none;
-}
+   /* ==========================================================================
+      2. Global Styles
+      ========================================================================== */
+   
+   body {
+       font-family: 'Montserrat', sans-serif;
+       background-color: #001F3F; /* Dark Navy */
+       color: #C0C0C0; /* Silver Gray */
+       margin: 0;
+       padding: 0;
+   }
+   
+   /* ==========================================================================
+      3. Typography
+      ========================================================================== */
+   
+   h1, h2, h3 {
+       font-family: 'Aguero Serif', serif;
+       color: #FFDAB9; /* Soft Peach */
+       font-weight: bold;
+   }
+   
+   .hero-content h1 {
+       color: #FFFFFF; /* Soft Peach */
+       font-weight: bold;
+   }
+   
+   .hero-content h2 {
+       color: #FFFFFF; /* Soft Peach */
+       font-weight: normal;
+   }
+   
+   p {
+       font-family: 'Montserrat', sans-serif;
+       font-size: 1.1rem;
+       line-height: 1.6;
+       max-width: 800px;
+       margin: auto; /* Consider moving to a more specific context if only for certain paragraphs */
+   }
+   
+   strong {
+       color: #C0C0C0; /* Silver Gray */
+       font-weight: 600;
+   }
+   
+   a {
+       color: lightblue; /* Changed from #FFDAB9 based on your later definition */
+       text-decoration: none;
+       font-weight: bold;
+   }
+   
+   a:hover {
+       color: #800000; /* Maroon */
+   }
+   
+   /* ==========================================================================
+      4. Layout
+      ========================================================================== */
+   
+   .container {
+       max-width: 1200px;
+       margin: auto;
+       padding: 20px;
+   }
+   
+   .section {
+       padding: 20px;
+       border-radius: 10px;
+       margin: 10px 0;
+   }
+   
+   /* ==========================================================================
+      5. Components
+      ========================================================================== */
+   
+   /* Hero Section */
+   .hero {
+       background-color: #800000; /* Maroon */
+       color: #FFDAB9; /* Soft Peach */
+       text-align: center;
+       padding: 100px 20px;
+   }
+   
+   /* About Section */
+   .about-me {
+       background-color: #001F3F; /* Dark Navy */
+       color: #FFDAB9; /* Soft Peach */
+       padding: 40px;
+       border-radius: 10px;
+       max-width: 1000px;
+       margin: auto;
+       text-align: center;
+       box-shadow: 0 4px 8px rgba(255, 218, 185, 0.2); /* Soft Peach Shadow */
+   }
+   
+   /* Headings inside About Me */
+   .about-me h2 {
+       color: #800000; /* Maroon */
+       font-family: 'Aguero Serif', serif;
+       font-size: 2rem;
+       font-weight: bold;
+   }
+   
+   /* Paragraph styling in About Me (can be more specific if needed) */
+   .about-me p {
+       font-family: 'Montserrat', sans-serif;
+       font-size: 1.1rem;
+       line-height: 1.6;
+       max-width: 800px;
+       margin: auto;
+   }
+   
+   /* Highlighted text in About Me */
+   .about-me strong {
+       color: #C0C0C0; /* Silver Gray */
+       font-weight: 600;
+   }
+   
+   /* Skills Section */
+   .skills {
+       background: #4d0000;
+   }
+   
+   .skills ul {
+       list-style: none;
+       padding: 0;
+   }
+   
+   .skills ul li {
+       font-size: 18px;
+   }
+   
+   /* Project Section */
+   .project {
+       background: #4d0000;
+   }
+   
+   /* Contact Section */
+   .contact {
+       padding: 20px;
+       border-radius: 10px;
+       background: #4d0000;
+   }
+   
+   .contact input,
+   .contact textarea {
+       width: 100%;
+       padding: 10px;
+       margin: 5px 0;
+       border: none;
+       border-radius: 5px;
+   }
+   
+   /* Buttons */
+   button {
+       background-color: lightblue; /* Changed from #800000 based on your later definition */
+       color: #FFDAB9; /* Soft Peach */
+       font-family: 'Montserrat', sans-serif;
+       padding: 10px 20px;
+       border: none;
+       cursor: pointer;
+       transition: 0.3s ease;
+   }
+   
+   button:hover {
+       background-color: #5A0000; /* Slightly darker Maroon */ /* Consider making this consistent with the button's default color */
+   }
+   
+   /* Footer */
+   footer {
+       background-color: #5A0000; /* Dark Maroon */
+       text-align: center;
+       padding: 20px;
+       color: #FFDAB9; /* Soft Peach */
+   }
+   
+   /* ==========================================================================
+      6. Responsive Design
+      ========================================================================== */
+   
+   @media (max-width: 768px) {
+       .about-me {
+           padding: 20px;
+       }
+   
+       .about-me h2 {
+           font-size: 1.8rem;
+       }
+   
+       .about-me p {
+           font-size: 1rem;
+       }
+   }
