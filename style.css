@@ -17,9 +17,13 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-.hero-content h2{
+.hero-content h1{
     color: #FFDAB9; /* Soft Peach */
     font-weight: bold;
+}
+.hero-content h2{
+    color: #FFDAB9; /* Soft Peach */
+    font-weight: normal;
 }
 
 /* About Section */
