@@ -4,17 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #fdf6ff; /* Lavender blush */
-    color: #333;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #FFF8F0;
