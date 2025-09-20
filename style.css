@@ -29,6 +29,11 @@ h1, h2, h3 {
     color: #FFF8F0;
 }
 
+.navbar {
+    background-color: #6BCB77;
+    padding: 10px 20px;
+}
+
 p {
     font-size: 1.1rem;
     line-height: 1.6;
