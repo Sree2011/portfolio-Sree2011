@@ -1,21 +1,18 @@
 /* ==========================================================================
-   Table of Contents
-   ========================================================================== */
-
-/*
-   1. Imports
-   2. Global Styles
-   3. Typography (Headings, Paragraphs, Links)
-   4. Layout (Containers, Sections)
-   5. Components (Hero, About, Skills, Projects, Contact, Buttons, Footer)
-   6. Responsive Design
-*/
-
-/* ==========================================================================
    1. Imports
    ========================================================================== */
 
-   @import url('https://fonts.googleapis.com/css2?family=Montserrat,Serif:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fdf6ff; /* Lavender blush */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
 
 body {
