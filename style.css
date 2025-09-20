@@ -17,224 +17,159 @@
 
    @import url('https://fonts.googleapis.com/css2?family=Montserrat,Serif:wght@300;400;600&display=swap');
 
-   /* ==========================================================================
-      2. Global Styles
-      ========================================================================== */
-   
-   body {
-       font-family: 'Montserrat', sans-serif;
-       background-color: #001F3F; /* Dark Navy */
-       color: #C0C0C0; /* Silver Gray */
-       margin: 0;
-       padding: 0;
-   }
-   
-   /* ==========================================================================
-      3. Typography
-      ========================================================================== */
-   
-   h1, h2, h3 {
-       font-family: 'Aguero Serif', serif;
-       color: #FFDAB9; /* Soft Peach */
-       font-weight: bold;
-   }
-   
-   .hero-content h1 {
-       color: #FFFFFF; /* Soft Peach */
-       font-weight: bold;
-   }
-   
-   .hero-content h2 {
-       color: #FFFFFF; /* Soft Peach */
-       font-weight: normal;
-   }
-   
-   p {
-       font-family: 'Montserrat', sans-serif;
-       font-size: 1.1rem;
-       line-height: 1.6;
-       max-width: 800px;
-       margin: auto; /* Consider moving to a more specific context if only for certain paragraphs */
-   }
-   
-   strong {
-       color: #C0C0C0; /* Silver Gray */
-       font-weight: 600;
-   }
-   
-   a {
-       color: lightblue; /* Changed from #FFDAB9 based on your later definition */
-       text-decoration: none;
-       font-weight: bold;
-   }
-   
-   a:hover {
-       color: #800000; /* Maroon */
-   }
-   
-   /* ==========================================================================
-      4. Layout
-      ========================================================================== */
-   
-   .container {
-       max-width: 1200px;
-       margin: auto;
-       padding: 20px;
-   }
-   
-   .section {
-       padding: 20px;
-       border-radius: 10px;
-       margin: 10px 0;
-   }
-   
-   /* ==========================================================================
-      5. Components
-      ========================================================================== */
-   
-   /* Hero Section */
-   .hero {
-       background-color: #800000; /* Maroon */
-       color: #FFDAB9; /* Soft Peach */
-       text-align: center;
-       padding: 100px 20px;
-   }
-   
-   /* About Section */
-   .about-me {
-       background-color: #001F3F; /* Dark Navy */
-       color: #FFDAB9; /* Soft Peach */
-       padding: 40px;
-       border-radius: 10px;
-       max-width: 1000px;
-       margin: auto;
-       text-align: center;
-       box-shadow: 0 4px 8px rgba(255, 218, 185, 0.2); /* Soft Peach Shadow */
-   }
-   
-   /* Headings inside About Me */
-   .about-me h2 {
-       color: #800000; /* Maroon */
-       font-family: 'Aguero Serif', serif;
-       font-size: 2rem;
-       font-weight: bold;
-   }
-   
-   /* Paragraph styling in About Me (can be more specific if needed) */
-   .about-me p {
-       font-family: 'Montserrat', sans-serif;
-       font-size: 1.1rem;
-       line-height: 1.6;
-       max-width: 800px;
-       margin: auto;
-   }
-   
-   /* Highlighted text in About Me */
-   .about-me strong {
-       color: #C0C0C0; /* Silver Gray */
-       font-weight: 600;
-   }
-   
-   /* Skills Section */
-   .skills {
-       background: #4d0000;
-   }
-   
-   .skills ul {
-       list-style: none;
-       padding: 0;
-   }
-   
-   .skills ul li {
-       font-size: 18px;
-   }
-   
-   /* Project Section */
-   .project {
-       background: #4d0000;
-       border-radius: 10px;
-       padding: 20px;
-       margin-bottom: 20px; /* To create space between the boxes */
-   }
 
-   .project-category {
-    background-color: #f8f9fa; /* Light gray background */
-    padding: 15px;
-    border-left: 5px solid #007bff; /* Blue accent border */
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF8F0;
+    color: #2E2E2E;
+    margin: 0;
+    padding: 0;
 }
 
-.project-category h3 {
-    color: #007bff; /* Blue header */
-    font-size: 20px;
+h1, h2, h3 {
+    font-family: 'Aguero Serif', serif;
+    color: #FF4D6D;
     font-weight: bold;
 }
 
-.project-category ul {
-    padding-left: 20px;
+.hero {
+    background-color: #FF4D6D;
+    color: #FFF8F0;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero-content h1,
+.hero-content h2 {
+    color: #FFF8F0;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    color: #2E2E2E;
+}
+
+strong {
+    color: #d1ff47;
+    font-weight: 600;
+}
+
+a {
+    color: #6BCB77;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFB347;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #FFF8F0;
+}
+
+.about-me {
+    background-color: #FFF8F0;
+    color: #2E2E2E;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 179, 71, 0.2);
+}
+
+.about-me h2 {
+    color: #FF4D6D;
+    font-family: 'Aguero Serif', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skills {
+    background-color: #FFB347;
+}
+
+.skills ul li {
+    font-size: 18px;
+    color: #2E2E2E;
+    list-style-type: none;
+}
+
+.project {
+    background-color: #FFF8F0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-category {
+    background-color: #6BCB77;
+    padding: 15px;
+    border-left: 5px solid #FF4D6D;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-category h3 {
+    color: #2E2E2E;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .project-category li {
     font-size: 16px;
     line-height: 1.6;
-    list-style-type: disc;
+    color: #2E2E2E;
 }
-   
-   /* Contact Section */
-   .contact {
-       padding: 20px;
-       border-radius: 10px;
-       background: #4d0000;
-   }
-   
-   .contact input,
-   .contact textarea {
-       width: 100%;
-       padding: 10px;
-       margin: 5px 0;
-       border: none;
-       border-radius: 5px;
-   }
-   
-   /* Buttons */
-   button {
-       background-color: lightblue; /* Changed from #800000 based on your later definition */
-       color: #FFDAB9; /* Soft Peach */
-       font-family: 'Montserrat', sans-serif;
-       padding: 10px 20px;
-       border: none;
-       cursor: pointer;
-       transition: 0.3s ease;
-   }
-   
-   button:hover {
-       background-color: #5A0000; /* Slightly darker Maroon */ /* Consider making this consistent with the button's default color */
-   }
-   
-   /* Footer */
-   footer {
-       background-color: #5A0000; /* Dark Maroon */
-       text-align: center;
-       padding: 20px;
-       color: #FFDAB9; /* Soft Peach */
-   }
-   
-   /* ==========================================================================
-      6. Responsive Design
-      ========================================================================== */
-   
-   @media (max-width: 768px) {
-       .about-me {
-           padding: 20px;
-       }
-   
-       .about-me h2 {
-           font-size: 1.8rem;
-       }
-   
-       .about-me p {
-           font-size: 1rem;
-       }
-   }
+
+.contact {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFB347;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF8F0;
+    color: #2E2E2E;
+}
+
+button {
+    background-color: #6BCB77;
+    color: #FFF8F0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4D6D;
+}
+
+footer {
+    background-color: #FF4D6D;
+    text-align: center;
+    padding: 20px;
+    color: #FFF8F0;
+}
