@@ -25,8 +25,7 @@ h1, h2, h3 {
     padding: 70px 20px;
 }
 
-.hero-content h1,
-.hero-content h2 {
+.hero p{
     color: #FFF8F0;
 }
 
