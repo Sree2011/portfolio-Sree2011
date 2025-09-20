@@ -96,7 +96,7 @@ a:hover {
 
 .skills ul li {
     font-size: 18px;
-    color: #FF4D6D;
+    color: #2E2E2E;
     list-style-type: none;
 }
 
@@ -107,6 +107,12 @@ a:hover {
     border-radius: 15px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+    color: #2E2E2E;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .project {
@@ -126,7 +132,7 @@ a:hover {
 }
 
 .project strong {
-    color: #FF4D6D;
+    color: #2E2E2E;
 }
 
 .project-category h3 {
@@ -136,13 +142,13 @@ a:hover {
 }
 
 .project p{
-    color: #FF4D6D;
+    color: #2E2E2E;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .project a{
-    color: #FF4D6D;
+    color: #2E2E2E;
     font-weight: bold;
 }
 .project-category li {
@@ -161,7 +167,7 @@ a:hover {
 
 .contact h2, .contact h3, .contact p, .contact strong, .contact a {
     text-align: center;
-    color: #FF4D6D;
+    color: #2E2E2E;
     font-family: 'Aguero Serif', serif;
     font-size: 2rem;
     font-weight: bold;
@@ -178,6 +184,17 @@ a:hover {
 
 }
 
+.hero-text{
+    background-color: #FFF8F0;
+    color: #2E2E2E;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.hero-text p, .hero-text strong{
+    color: #2E2E2E;
+}
 button {
     background-color: #6BCB77;
     color: #FFF8F0;
