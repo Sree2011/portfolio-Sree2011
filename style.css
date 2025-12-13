@@ -46,8 +46,8 @@ a{
     text-align: center;
 }
 
-.nav-link a{
-    color: #FFF8F0;
+.navbar .nav-link {
+    color: #F4B183 !important;
     font-weight: 600;
 }
 
