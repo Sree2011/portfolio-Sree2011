@@ -30,6 +30,10 @@ h1, h2, h3 {
     padding: 80px 20px;
 }
 
+a{
+   color: #FFF8F0;
+}
+
 .hero p {
     color: #F4F4F4;
     opacity: 0.9;
