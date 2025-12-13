@@ -46,6 +46,11 @@ a{
     text-align: center;
 }
 
+.nav-link a{
+    color: #FFF8F0;
+    font-weight: 600;
+}
+
 .navbar a {
     color: #F4B183;
     margin: 0 15px;
