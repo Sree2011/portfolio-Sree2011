@@ -25,7 +25,7 @@ h1, h2, h3 {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #0A1A2F, #132C46);
-    color: #F4F4F4;
+    color: #132C46;
     text-align: center;
     padding: 80px 20px;
 }
@@ -35,8 +35,8 @@ a{
 }
 
 .hero p {
-    color: #F4F4F4;
-    opacity: 0.9;
+    color: #0A1A2F;
+    
 }
 
 /* Navbar */
@@ -71,12 +71,12 @@ p {
 
 /* Strong Text */
 strong {
-    color: #F4B183;
+    color: #8b532d;
 }
 
 /* Links */
 a {
-    color: #F4B183;
+    color: #8b532d;
     text-decoration: none;
     font-weight: 600;
 }
