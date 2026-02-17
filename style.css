@@ -18,14 +18,14 @@ body {
 /* Headings */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    color: #F4B183; /* Warm Peach Gold */
+    color: #0A1A2F; /* Warm Peach Gold */
     font-weight: 600;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #0A1A2F, #132C46);
-    color: #132C46;
+    background: #f4b183;
+    color: #0A1A2F;
     text-align: center;
     padding: 80px 20px;
 }
@@ -41,18 +41,19 @@ a{
 
 /* Navbar */
 .navbar {
-    background-color: #0A1A2F;
+    background-color: #F4B183;
+    color: #0A1A2F;
     padding: 12px 20px;
     text-align: center;
 }
 
 .navbar .nav-link {
-    color: #F4B183 !important;
+    color: #0A1A2F !important;
     font-weight: 600;
 }
 
 .navbar a {
-    color: #F4B183;
+    color: #0A1A2F;
     margin: 0 15px;
     font-weight: 600;
 }
@@ -169,7 +170,7 @@ a:hover {
 
 /* Projects */
 .project {
-    background-color: #FFF8F0;
+    background-color: #FFFF;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
