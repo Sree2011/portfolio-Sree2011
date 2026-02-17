@@ -135,6 +135,38 @@ a:hover {
     color: #0A1A2F;
 }
 
+
+/* Skill Badges */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+/* Badge Variants */
+.badge.beginner {
+  background-color: #E0E6ED; /* soft gray */
+  color: #0A1A2F;
+}
+
+.badge.intermediate {
+  background-color: #FFDCC2; /* soft peach */
+  color: #0A1A2F;
+}
+
+.badge.fundamentals {
+  background-color: #F4B183; /* warm peach gold */
+  color: #0A1A2F;
+}
+
+.badge.certified {
+  background-color: #8b532d; /* earthy brown */
+  color: #FFF8F0;
+}
+
 /* Projects */
 .project {
     background-color: #FFF8F0;
